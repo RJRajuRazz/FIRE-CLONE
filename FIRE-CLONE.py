@@ -405,7 +405,7 @@ def setting():
 			xx = random.randint(0,len(id2))
 			id2.insert(xx,bacot)
 	print('\x1b[1;92m LOGIN FIRE\n\x1b[1;97m [1] METHOD FIRE ')
-	os.system('espeak -a 300 " 1,  method,  FIRE'')
+	os.system('espeak -a 300 " 1, method, FIRE'')
 	hc = input(' CHOOSE: ')
 	if hc in ['1','01']:
 		method.append('mobile')
