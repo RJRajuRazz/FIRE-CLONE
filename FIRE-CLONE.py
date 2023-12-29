@@ -195,8 +195,8 @@ def banner():
 \033[0;94m╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝\033[1;31m""")
 def login():
 	banner()
-	RJRajuRazzj('\033[1;96m[1] File Cloning\n\x1b[1;92m[2] Contact With Admin\n\033[0;97m[0] \033[0;91mEXIT ')
-	RJRajuRazzj('\033[0;97m===============================================')
+	RJRajuRazz('\033[1;96m[1] File Cloning\n\x1b[1;92m[2] Contact With Admin\n\033[0;97m[0] \033[0;91mEXIT ')
+	RJRajuRazz('\033[0;97m===============================================')
 	RJRajuRazz= input('\x1b[1;92m[+] CHOOSE: ');time.sleep(0.01)
 	if RJRajuRazz in ['m']:
 		public()
@@ -423,7 +423,7 @@ def passwrd():
 	print('\033[97;1m[\033[92;1m+\033[97;1m] \033[0;92mTOTAL IDz :\033[0;97m '+str(len(id)))
 	print("\033[97;1m[\033[92;1m+\033[97;1m] \033[0;95mCloning Speed Super Fast")
 	print("\033[97;1m[\033[92;1m+\033[97;1m] \033[0;92mTURN ON/OFF FLIGHT MODE IN EVERY 5 MIN")
-	RJRajuRazzj(f'\033[0;97m===============================================')
+	RJRajuRazz(f'\033[0;97m===============================================')
 	with tred(max_workers=30) as pool:
 		for yuzong in id2:
 			idf,nmf = yuzong.split('|')[0],yuzong.split('|')[1].lower()
@@ -468,8 +468,8 @@ def passwrd():
 					
 				pool.submit(crack,idf,pwv)
 	print('')
-	RJRajuRazzj('==========================================')
-	RJRajuRazzj('CLONING COMPLETE .......... ')
+	RJRajuRazz('==========================================')
+	RJRajuRazz('CLONING COMPLETE .......... ')
 	print(f'{h}[{h}💚{h}]{h} Your Total OK idz : {h}%s '%(ok))
 	input('CLICK ENTER TO EXIT ')
 		
