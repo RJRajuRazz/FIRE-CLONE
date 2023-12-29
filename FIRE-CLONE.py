@@ -195,7 +195,7 @@ def banner():
 \033[0;94m╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝\033[1;31m""")
 def login():
 	banner()
-	RJRajuRazzj('\033[1;96m[1] File Cloning\n\x1b[1;92m[2] Contact With Admin\n\033[0;97m[0] \033[0;91mEXIT ')
+	RJRajuRazz('\033[1;96m[1] File Cloning\n\x1b[1;92m[2] Contact With Admin\n\033[0;97m[0] \033[0;91mEXIT ')
 	RJRajuRazz('\033[0;97m===============================================')
 	RJRajuRazz= input('\x1b[1;92m[+] CHOOSE: ');time.sleep(0.01)
 	if RJRajuRazz in ['m']:
