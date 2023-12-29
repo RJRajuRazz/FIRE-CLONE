@@ -523,7 +523,7 @@ if __name__=='__main__':
 	except:pass
 
 def Subscraption():
-	key1=open('/storage/emulated/0/android8.txt', 'r').read()
+	key1=open('/storage/emulated/0/android.txt', 'r').read()
 	r1=requests.get("https://github.com/RJRajuRazz/Fire-Approval/blob/main/Fire-Approval.txt").text
 	if key1 in r1:
 		os.system('clear')
@@ -541,6 +541,3 @@ def Subscraption():
 		time.sleep(3.5)
 		tks = 'Ram%20Ram-!💚,%20Please%20Approve%20My%20Key%20To%20Premium%20%20Thanks%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Name%20:%20'+name+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20%20Key%20%20:%20'+ak+Tutul+''+key1
 		os.system('am start https://wa.me/+919954282827?text=' + tks)
-		Subscraption() 
-Subscraption() 
-login()
