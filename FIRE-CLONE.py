@@ -103,7 +103,7 @@ cokbrut=[]
 
 def back():
 	login()
-RJ Raju Razz="RJ Raju Razz"
+
 imt="SETU"
 ak="CLASS3-"
 
