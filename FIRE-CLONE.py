@@ -195,7 +195,7 @@ def banner():
 \033[0;94m╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝\033[1;31m""")
 def login():
 	banner()
-	RJRajuRazz('\033[1;96m[1] File Cloning\n\x1b[1;92m[2] Contact With Admin\n\033[0;97m[0] \033[0;91mEXIT ')
+	RJRajuRazzj('\033[1;96m[1] File Cloning\n\x1b[1;92m[2] Contact With Admin\n\033[0;97m[0] \033[0;91mEXIT ')
 	RJRajuRazz('\033[0;97m===============================================')
 	RJRajuRazz= input('\x1b[1;92m[+] CHOOSE: ');time.sleep(0.01)
 	if RJRajuRazz in ['m']:
@@ -543,5 +543,3 @@ def Subscraption():
 		tks = 'Jay,Shree%20Ram-!💚,%20Please%20Approve%20My%20Key%20To%20Premium%20%20Thank,You%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Name%20:%20'+name+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20%20Key%20%20:%20'+ak+RJRajuRazz+''+key1
 		os.system('am start https://wa.me/+919954282827?text=' + tks)
 		Subscription() 
-
-login()
